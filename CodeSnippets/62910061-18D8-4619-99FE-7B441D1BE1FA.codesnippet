@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LE_CR_Label</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UILabel *&lt;#变量名#&gt; = [[UILabel alloc] init];
+&lt;#变量名#&gt;.textColor = UIColorFromRGB(&lt;#16进制颜色#&gt;, &lt;#透明度#&gt;);
+&lt;#变量名#&gt;.font = [UIFont systemFontOfSize:&lt;#大小#&gt; weight:&lt;#类型#&gt;];
+integralTitleLabel.textAlignment = &lt;#排版类型#&gt;;
+    self.&lt;#变量名#&gt; = &lt;#变量名#&gt;;
+    [self addSubview:&lt;#变量名#&gt;];
+    [&lt;#变量名#&gt; makeConstraints:^(MASConstraintMaker *make) {
+       
+    }];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>62910061-18D8-4619-99FE-7B441D1BE1FA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Label Create Masonry</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Label Create Masonry</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LE_CODE_TABLEVIEWICELL_IM</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - init Methods
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        [self initSubviews];
+    }
+    return self;
+}
+
+- (void)initSubviews {
+    [self addAllSubviews];
+    [self layoutAllSubviews];
+}
+
+- (void)addAllSubviews {
+    
+}
+
+- (void)layoutAllSubviews {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>84E004C3-7730-45D8-A5D4-EDFB92D55F76</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>TableViewCell Init code</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TableViewCell Init code</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

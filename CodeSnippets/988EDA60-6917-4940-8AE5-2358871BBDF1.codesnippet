@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LE_IDB</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[YSImageDownloadUtils ys_imageDownloadWithButton:&lt;#button#&gt; forState:&lt;#state#&gt; imageURL:&lt;#imageURL#&gt; placeholderImage:&lt;#placeholderImage#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>988EDA60-6917-4940-8AE5-2358871BBDF1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>YSImage Download Button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YSImage Download Button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

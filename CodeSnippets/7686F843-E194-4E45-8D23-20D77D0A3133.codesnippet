@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LE_CR_BUTTON</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *&lt;#变量#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+&lt;#变量#&gt;.titleLabel.font = [UIFont systemFontOfSize:&lt;#size#&gt; weight:&lt;#Weight#&gt;];
+[&lt;#变量#&gt; setTitleColor:UIColorFromRGB(&lt;#16进制颜色#&gt;, &lt;#透明度#&gt;) forState:UIControlStateNormal];
+[&lt;#变量#&gt; setTitle:&lt;#标题#&gt; forState:UIControlStateNormal];
+    self.&lt;#变量#&gt; = &lt;#变量#&gt;;
+    [self addSubview:&lt;#变量#&gt;];
+    [&lt;#变量#&gt; makeConstraints:^(MASConstraintMaker *make) {
+
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7686F843-E194-4E45-8D23-20D77D0A3133</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create Button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Create Button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

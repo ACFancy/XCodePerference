@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LE_CODE_CLASSIM</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/**
+ 类初始化方法
+
+ @return 返回实例对象
+ */
++ (instancetype)&lt;#类初始化方法名称#&gt; {
+    &lt;#类名#&gt; *_intance = [[self alloc] init];
+    return _intance;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>88942084-4A5C-432F-A010-F100D6CFF8FF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Class init Method</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Class init Method</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

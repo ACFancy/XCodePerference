@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LE_CODE_V_INIT</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - init Methods
+- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        [self initSubviews];
+    }
+    return self;
+}
+
+- (void)initSubviews {
+    [self addAllSubviews];
+    [self layoutAllSubviews];
+}
+
+- (void)addAllSubviews {
+    
+}
+
+- (void)layoutAllSubviews {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>45E848A5-A62E-47E7-807A-FEA125CFC6CB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIView Init Code</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIView Init Code</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
