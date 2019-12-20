@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LE_CODE_TB_VIEW</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (BaseTableView *)&lt;#tableView#&gt; {
+if (_&lt;#tableView#&gt; == nil) {
+_&lt;#tableView#&gt; = [[BaseTableView alloc] initWithFrame:CGRectZero style:&lt;#UITableViewStyle#&gt;];
+adjustsScrollViewInsets(_&lt;#tableView#&gt;);
+[_&lt;#tableView#&gt; registerClass:[&lt;#TableViewCellClass#&gt; class] forCellReuseIdentifier:&lt;#identifier#&gt;];
+_&lt;#tableView#&gt;.backgroundColor = &lt;#color#&gt;;
+_&lt;#tableView#&gt;.tableFooterView = [[UIView alloc] init];
+_&lt;#tableView#&gt;.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, CGFLOAT_MIN)];
+_&lt;#tableView#&gt;.sectionFooterHeight = 0.01f;
+_&lt;#tableView#&gt;.sectionHeaderHeight = 0.01f;
+_&lt;#tableView#&gt;.separatorStyle = UITableViewCellSeparatorStyleNone;
+_&lt;#tableView#&gt;.contentInset = UIEdgeInsetsMake(NAVFRAME_BARHEIGHT, 0, 0, 0);
+_&lt;#tableView#&gt;.estimatedRowHeight = 0.0f;
+_&lt;#tableView#&gt;.rowHeight = 0.0f;
+_&lt;#tableView#&gt;.delegate = self;
+_&lt;#tableView#&gt;.dataSource = self;
+}
+return _&lt;#tableView#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8F35C720-FE70-483C-A70E-24659C06BDFF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>create Table View code</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>create Table View code</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

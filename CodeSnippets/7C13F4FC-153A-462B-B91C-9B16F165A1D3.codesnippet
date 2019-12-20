@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LE_CODE_AM</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)&lt;#ActionMethodName#&gt;:(UIButton *)sender {
+    sender.userInteractionEnabled = NO;
+    //TODO:
+    sender.userInteractionEnabled = YES;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7C13F4FC-153A-462B-B91C-9B16F165A1D3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Common Action Snipt Code</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Common Action Snipt Code</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
