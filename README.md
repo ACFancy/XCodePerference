@@ -1,2 +1,2 @@
 # XCodePerference
-A Personal Xcode Perfence Setting
+A Personal Xcode Perference Setting
